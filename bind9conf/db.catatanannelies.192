@@ -1,0 +1,17 @@
+;
+; BIND reverse data file for local loopback interface
+;
+$TTL	604800
+@	IN	SOA	catatanannelies.com. root.catataneannelies.com. (
+			 202001		; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			 604800 )	; Negative Cache TTL
+;
+@	IN	NS	catatanannelies.com.
+101	IN	PTR	catatanannelies.com.
+101     IN      PTR     www.catatanannelies.com.
+101     IN      PTR     mail.catatanannelies.com.
+101     IN      PTR     ftp.catatanannelies.com.
+
